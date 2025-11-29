@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4002955072023295389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4002955072023295390}
+  - component: {fileID: 4002955072023295391}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4002955072023295390
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4002955072023295389}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.01711511, y: 0.44812906, z: 1.9031388}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4002955072023295391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4002955072023295389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49ea179b3803a774781af6b6b362f1ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stripesMaterial: {fileID: 0}
+  camForText: {fileID: 0}
+  startGame: 0
+  preGame: 0
+  resetScene: 0
+  lostGame: 0
+  wonGame: 0
+  glitch: 0
+  fogReturn: 0
+  lerpSpeed: 2
+  fogSpeed: 3
+  highScoreTimer: 0
+  timer: {fileID: 0}
+  levelText: {fileID: 0}
+  instructions: {fileID: 0}
+  newBestText: {fileID: 0}
+  yourTimeText: {fileID: 0}
+  enemyKillFlash: {fileID: 0}
+  table: {fileID: 0}
+  backroundImage: {fileID: 0}
+  startGameObjectsShow: {fileID: 0}
+  allObjects: {fileID: 0}
+  shootMedium: {fileID: 461905211167590358, guid: 6cd252e372dc4b34a853f46e516d3aa9, type: 3}
+  shootHeavy: {fileID: 6060429146594797153, guid: 87d7a17fb87045440af8a0b384c496fa, type: 3}
+  timeGot: {fileID: 0}
+  bestTimeGot: {fileID: 0}
+  fogParticles: {fileID: 0}
+  tableDust: {fileID: 0}
+  levelName: 
